@@ -1,0 +1,107 @@
+body, html {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  background-image: url("images/girl.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%) blur(8px);
+  -webkit-filter: grayscale(100%) blur(8px);
+  z-index: 0;
+}
+
+.myWrapper{
+ height: 20%;
+ position: relative;	
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ text-align: center;
+ z-index: 1;
+ /*background-color: black;*/
+}
+.text {
+ height: 30%;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;	
+ color: black;
+ font-weight: bold;
+ text-align: center;
+ z-index: 1;
+ /*background-color: gray;*/
+}
+.under{
+ text-decoration: underline;
+ text-decoration-color: red;
+}
+.bigbox{
+ position: relative;
+ width: 30%;
+ display:flex;
+ justify-content: center;
+ margin:0 auto;
+ flex-direction:column;
+ z-index: 1;
+ /*background-color: black; */
+}
+.newtext{
+ color: white;
+}
+.newtext2{
+ color: white;
+ text-align: right;
+}
+.box {
+ background-color: rgba(46, 49, 49, 0.6);
+ display:flex;
+ flex-direction:row;
+ align-items:center;
+}
+.myinput {
+ border:1px solid transparent;
+ background: transparent;
+ box-sizing: border-box;
+ font-size:18pt;
+ width:80%;
+ height:100%;
+ color: white ;
+ font-family:"Comic Sans MS", cursive, sans-serif;
+ opacity: 0.5;
+}
+.myinput:focus {
+ outline: none;
+}
+.mybutton {
+ border:1px solid transparent;
+ background:transparent;
+ color:white;
+ width: 20%;
+ height: 100%;
+}
+.mybutton:focus {
+ outline: none;
+}
+.myWrapper2 {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ height: 35%;
+ z-index: 1;
+ color:black;
+ /*background-color: black;*/
+}
+
+
+
